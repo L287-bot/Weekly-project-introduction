@@ -1,0 +1,9 @@
+EDKZSCWCPLFFTEPQ8402370372372628
+
+
+cd /path/to/your/folder  # 切换到你的文件夹目录
+git init  # 初始化本地仓库（如果你尚未这么做）
+git add .  # 添加当前目录下的所有文件和文件夹到本地仓库
+git commit -m "Initial commit"  # 提交更改，并附加一个提交信息
+git remote add origin https://github.com/L287-bot/Weekly-project-introduction.git  # 添加远程GitHub仓库地址
+git push -u origin master  # 推送更改到GitHub主分支
